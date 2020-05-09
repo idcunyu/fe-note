@@ -1,0 +1,28 @@
+{
+  "name": "fe-note",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "gh-pages -d dist -m deploy",
+    "deploy:build": "npm run build && npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/idcunyu/fe-note.git"
+  },
+  "author": "idcunyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idcunyu/fe-note/issues"
+  },
+  "homepage": "https://github.com/idcunyu/fe-note#readme",
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "vuepress": "^1.4.1"
+  }
+}
